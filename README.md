@@ -60,10 +60,10 @@ API
   上で書いたように jQuery.ajaxの戻り値（jQuery.Deferred）をそのまま返します。<br>
   jQuery.Deferredが使えない場合は callback を指定してください。
 
-* jQuery.Deferred getInfo()(Array option, Function callback)<br>
+* jQuery.Deferred getInfo(Array option, Function callback)<br>
   ブログの名前や投稿件数など、ブログの基本情報を取得します（ http://www.tumblr.com/docs/en/api/v2#blog-info ）。
 
-* jQuery.Deferred api()(String method, Array option, Function callback)<br>
+* jQuery.Deferred api(String method, Array option, Function callback)<br>
   Tumblr APIを汎用的に呼び出せます。methodにTumblrのAPIのスラッシュ以降をそのまま指定してください。
 
 * void setOption(Array option)<br>
