@@ -53,7 +53,7 @@ API
 困ったら api() を使うか、自分で拡張してください。
 
 * jQuery.Deferred getPosts(Array option, Function callback)<br>
-  ブログから記事を取得します（http://www.tumblr.com/docs/en/api/v2#posts）。<br>
+  ブログから記事を取得します（ http://www.tumblr.com/docs/en/api/v2#posts ）。<br>
   optionに指定された情報をそのままTumblrのAPIに渡します。<br>
   よく使うのは offset（最新何件目から取得するか） と limit（何件取得するか） じゃないかと思います。<br>
   細かいオプションはTumblrのAPI仕様を確認して下さい。<br>
@@ -61,7 +61,7 @@ API
   jQuery.Deferredが使えない場合は callback を指定してください。
 
 * jQuery.Deferred getInfo()(Array option, Function callback)<br>
-  ブログの名前や投稿件数など、ブログの基本情報を取得します（http://www.tumblr.com/docs/en/api/v2#blog-info）。
+  ブログの名前や投稿件数など、ブログの基本情報を取得します（ http://www.tumblr.com/docs/en/api/v2#blog-info ）。
 
 * jQuery.Deferred api()(String method, Array option, Function callback)<br>
   Tumblr APIを汎用的に呼び出せます。methodにTumblrのAPIのスラッシュ以降をそのまま指定してください。
